@@ -5,10 +5,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       164,          1]
-NotebookDataLength[    100518,       1961]
-NotebookOptionsPosition[    100010,       1935]
-NotebookOutlinePosition[    100567,       1957]
-CellTagsIndexPosition[    100524,       1954]
+NotebookDataLength[    100873,       1962]
+NotebookOptionsPosition[    100365,       1936]
+NotebookOutlinePosition[    100922,       1958]
+CellTagsIndexPosition[    100879,       1955]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -57,29 +57,25 @@ Cell[BoxData[
   RowBox[{
    RowBox[{
     RowBox[{"single", "=", "True"}], ";", 
-    RowBox[{"index", "=", "23"}], ";"}], "\[IndentingNewLine]", 
+    RowBox[{"index", "=", "19"}], ";"}], "\[IndentingNewLine]", 
    "\[IndentingNewLine]", 
    RowBox[{
-    RowBox[{"compsectLineSpacing", "=", "2.00"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"plotsectLineSpacing", "=", "2.30"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{"default", " ", "=", " ", "2.30"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"progsectLineSpacing", "=", "2.00"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
-   "\[IndentingNewLine]", 
-   RowBox[{
-    RowBox[{"storysectLineSpacing", "=", "2.00"}], ";"}], " ", 
-   RowBox[{"(*", " ", 
-    RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
-   "\[IndentingNewLine]", "\[IndentingNewLine]", 
-   RowBox[{
+    RowBox[{"compsectLineSpacing", "=", "2.00"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"plotsectLineSpacing", "=", "2.30"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"default", " ", "=", " ", "2.30"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"progsectLineSpacing", "=", "2.00"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
+    "\[IndentingNewLine]", 
+    RowBox[{"storysectLineSpacing", "=", "2.00"}], ";", " ", 
+    RowBox[{"(*", " ", 
+     RowBox[{"default", " ", "=", " ", "2.00"}], " ", "*)"}], 
+    "\[IndentingNewLine]", "\[IndentingNewLine]", 
     RowBox[{"startIndex", "=", 
      RowBox[{"If", "[", 
       RowBox[{"single", ",", "index", ",", "1"}], "]"}]}], ";"}], 
@@ -144,6 +140,8 @@ Cell[BoxData[
          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
         RowBox[{"\"\<ParticipantAndClinic\>\"", "\[Rule]", 
          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
+        RowBox[{"\"\<PilotAndTranslationa\>\"", "\[Rule]", " ", 
+         RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
         RowBox[{"\"\<RecruitmentAndRetent\>\"", "\[Rule]", 
          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
         RowBox[{"\"\<TrialInnovationUnit\>\"", " ", "\[Rule]", " ", 
@@ -179,8 +177,6 @@ Cell[BoxData[
         RowBox[{"\"\<TransNetworkScienceE\>\"", "\[Rule]", 
          RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
         RowBox[{"\"\<TransNetworkScienceP\>\"", "\[Rule]", 
-         RowBox[{"{", "}"}]}], ",", "\[IndentingNewLine]", 
-        RowBox[{"\"\<PilotAndTranslationa\>\"", "\[Rule]", " ", 
          RowBox[{"{", "}"}]}]}], "\[IndentingNewLine]", "|>"}], "/.", 
       RowBox[{
        RowBox[{"val_", "/;", 
@@ -1930,9 +1926,14 @@ Cell[BoxData[
    3.771944453105955*^9}, {3.771944521944651*^9, 3.771944527492197*^9}, {
    3.771944592984697*^9, 3.7719445931568727`*^9}, {3.7719455017772646`*^9, 
    3.771945508809269*^9}, 3.7719455472352595`*^9, {3.7719456209259357`*^9, 
-   3.7719456214809833`*^9}, {3.774608531557931*^9, 
-   3.7746085819244547`*^9}},ExpressionUUID->"d301f35e-2cb6-4f86-912d-\
-9cf001a02f9a"]
+   3.7719456214809833`*^9}, {3.774608531557931*^9, 3.7746085819244547`*^9}, {
+   3.7748715003155427`*^9, 3.774871522569368*^9}, 3.77599672519785*^9, {
+   3.775997054474128*^9, 3.7759970793564672`*^9}, {3.7759972740889463`*^9, 
+   3.7759972883249607`*^9}, 3.7759973651560316`*^9, 3.7759977571003027`*^9, {
+   3.775998905720882*^9, 3.775998951027705*^9}, {3.7759992190858727`*^9, 
+   3.775999226415053*^9}, {3.776088296105536*^9, 3.7760883018560925`*^9}},
+ CellLabel->
+  "In[184]:=",ExpressionUUID->"d301f35e-2cb6-4f86-912d-9cf001a02f9a"]
 },
 WindowSize->{1920, 997},
 WindowMargins->{{-8, Automatic}, {Automatic, -8}},
@@ -1957,7 +1958,7 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[564, 14, 99442, 1919, 5824, "Input",ExpressionUUID->"d301f35e-2cb6-4f86-912d-9cf001a02f9a"]
+Cell[564, 14, 99797, 1920, 5824, "Input",ExpressionUUID->"d301f35e-2cb6-4f86-912d-9cf001a02f9a"]
 }
 ]
 *)
